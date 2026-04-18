@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;;
+}
+
+main {
+    margin: 20% auto;
+    max-width: 50%; 
+    max-height: 25%; 
+}
+
+main nav {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(63, 63, 63);
+}
+
+main nav input {
+    width: 90%;
+    border: none;
+    border-right: 3px solid rgb(63, 63, 63);
+    background-color: transparent;
+    font-size: 20px;
+    padding: 2%;
+    outline: none;
+}
+
+main nav i {
+    padding: 2%;
+}
+
+.calender {
+    margin-top: 2%;
+    border: 3px solid rgb(63, 63, 63);
+}
+
+.calender header .months {
+    display: flex;
+    justify-content: space-around;
+}
+
+.calender header .days {
+    display: flex;
+    justify-content: space-around;
+}
+
+.calender .dates {
+    border-top: 3px solid rgb(63, 63, 63);
+}
+
+.calender .dates section{
+    display: flex;
+}
+
+.calender .dates section div {
+    width: 14.3%;
+    padding: 3%;
+    text-align: center;
+    font-weight: 500;
+    border-right: 2px solid rgb(63, 63, 63);
+    border-bottom: 2px solid rgb(63, 63, 63);
+}
